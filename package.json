@@ -1,0 +1,23 @@
+{
+  "name": "simple-linked-lists",
+  "version": "0.0.1",
+  "keywords": [
+    "data-structure",
+    "linked-list",
+    "double-linked-list"
+  ],
+  "description": "Simple linked lists implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "https://github.com/M4dNation/simple-data-structure",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  }
+}
