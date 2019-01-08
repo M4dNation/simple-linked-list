@@ -1,5 +1,4 @@
-import LinkedList from "./src/LinkedList";
-import LinkedListNode from "./src/LinkedListNode";
+const { LinkedList, LinkedListNode } = require("./src/LinkedList");
 
 export {
     LinkedList,
