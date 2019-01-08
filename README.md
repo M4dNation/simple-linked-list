@@ -23,7 +23,7 @@ const LinkedList = require('simple-linked-lists').LinkedList;
 const LinkedListNode = require('simple-linked-lists').LinkedListNode;
 ```
 
-Once imported, you just have to instanciate Node and add them to the list to have an usable linked list.
+Once imported, you just have to instanciate nodes and add them to the list to have an usable linked list.
 
 ```javascript
 import { LinkedList, LinkedListNode } from 'simple-linked-lists';
