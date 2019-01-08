@@ -6,7 +6,7 @@
     "linked-list",
     "double-linked-list"
   ],
-  "description": "Simple linked lists implementation.",
+  "description": "Simple linked list implementation.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest"
