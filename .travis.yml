@@ -8,5 +8,5 @@ node_js:
 notifications:
   email: false
 script:
-  - jest
+  - yarn test
   - codecov

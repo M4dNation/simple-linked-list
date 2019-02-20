@@ -1,7 +1,7 @@
-const LinkedList = require("./src/LinkedList");
-const LinkedListNode = require("./src/LinkedListNode");
+const LinkedList = require("./src/linked-list");
+const LinkedListNode = require("./src/linked-list-node");
 
 module.exports = {
-    LinkedList,
-    LinkedListNode,
+  LinkedList,
+  LinkedListNode,
 };

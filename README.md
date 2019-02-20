@@ -1,5 +1,9 @@
 # simple-linked-lists
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![npm version](https://badge.fury.io/js/simple-linked-lists.svg)](https://badge.fury.io/js/simple-linked-lists)
+[![Build Status](https://travis-ci.com/M4dNation/simple-linked-lists.svg?branch=master)](https://travis-ci.com/M4dNation/simple-linked-lists) ![](https://david-dm.org/M4dNation/simple-linked-lists.svg) [![codecov](https://codecov.io/gh/M4dNation/simple-linked-lists/branch/develop/graph/badge.svg)](https://codecov.io/gh/M4dNation/simple-linked-lists)
+
 ## About
 
 `simple-linked-lists` is a package for creating a linked list structure.  
@@ -16,17 +20,17 @@ It provides one `LinkedList` class you can instanciate and populate with `Linked
 
 ```javascript
 // ES6
-import { LinkedList, LinkedListNode } from 'simple-linked-lists';
+import { LinkedList, LinkedListNode } from "simple-linked-lists";
 
 // ES5
-const LinkedList = require('simple-linked-lists').LinkedList;
-const LinkedListNode = require('simple-linked-lists').LinkedListNode;
+const LinkedList = require("simple-linked-lists").LinkedList;
+const LinkedListNode = require("simple-linked-lists").LinkedListNode;
 ```
 
 Once imported, you just have to instanciate nodes and add them to the list to have an usable linked list.
 
 ```javascript
-import { LinkedList, LinkedListNode } from 'simple-linked-lists';
+import { LinkedList, LinkedListNode } from "simple-linked-lists";
 
 const node = new LinkedListNode();
 const list = new LinkedList();
@@ -35,7 +39,6 @@ list.addToHead(node); // Add the node to the head of the list
 list.addToTail(node); // Add the node to the tail of the list
 list.removeHead(); // Remove the head node of the list
 list.removeTail(); // Remove the tail node of the list
-
 ```
 
 You can extend the `LinkedListNode` to create your own data set you can put in the list.
@@ -74,7 +77,7 @@ Moreover, Pull Requests should always come with related unit tests, and won't be
 `simple-linked-lists` uses jest for unit testing.  
 If you don't know about jest yet, you can check out their [documentation](https://jestjs.io/en/).
 
-To run the tests, just run : 
+To run the tests, just run :
 
 `yarn test`
 

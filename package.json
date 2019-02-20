@@ -9,12 +9,48 @@
   "description": "Simple linked list implementation.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "xo"
   },
   "repository": "https://github.com/M4dNation/simple-linked-lists",
   "license": "MIT",
   "devDependencies": {
-    "jest": "23.6.0"
+    "jest": "24.1.0",
+    "xo": "0.24.0"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true
+  },
+  "xo": {
+    "space": 2,
+    "prettier": true,
+    "rules": {
+      "promise/prefer-await-to-then": "warn"
+    },
+    "ignores": [
+      "node_modules"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "tests/**"
+        ],
+        "globals": [
+          "describe",
+          "test",
+          "expect",
+          "afterEach",
+          "beforeEach",
+          "beforeAll",
+          "jest",
+          "jasmine"
+        ]
+      }
+    ]
   },
   "jest": {
     "coverageDirectory": "./coverage/",
