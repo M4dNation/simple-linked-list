@@ -1,6 +1,6 @@
 {
   "name": "simple-linked-lists",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "data-structure",
     "linked-list",
@@ -15,7 +15,7 @@
   "repository": "https://github.com/M4dNation/simple-linked-lists",
   "license": "MIT",
   "devDependencies": {
-    "jest": "24.1.0",
+    "jest": "24.8.0",
     "xo": "0.24.0"
   },
   "prettier": {
